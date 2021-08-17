@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+input {
+    width: 20vw;
+    padding: 8px;
+    border-radius: 8px;
+    padding: 1rem;
+    margin:1rem;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 8px;
+    width: 10vw;
+    padding: 1rem;
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+}
+
+.success {
+    color:green;
+}
+
+.error {
+    color:red;
+}
