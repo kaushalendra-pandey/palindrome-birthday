@@ -12,8 +12,15 @@ const reverseString = (str) => {
 }
 
 const checkPalindrome = () => {
+    answer.innerHTML = ""
     const birthday = dateBox.value
+    console.log(typeof birthday)
     const org = birthday.split("-").reverse().join("")
+    if(!org) {
+        answer.innerHTML = "Please select a date"
+        answer.className = "error"
+        return
+    }
     const rev = reverseString(org)
     if(rev === org){
         answer.innerHTML = "Yes!! Badhai ho.. Palindrome h ji.. Palindrome h 🎆🎇"
